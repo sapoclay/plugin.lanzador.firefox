@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.lanzador.firefox" name="Lanzador firefox" version="0.1" provider-name="entreunosyceros.net">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="es">Lanzar desde el navegador firefox para netflix, amazon primevideo, yomvi, youtube, vimeo y otras páginas de tu interés.</summary>
+        <language></language>
+        <description lang="es">
+
+        Solo lo he probado en Gnu/Linux y Kodi, por que es lo que necesitaba. Si alguien necesita modificarlo para que funcione en otro sistema operativo, adelante.
+        </description>
+        <license>GNU GENERAL PUBLIC LICENSE 2</license>
+        <email>admin@entreunosyceros.net</email>
+        <website></website>
+    </extension>
+</addon>
