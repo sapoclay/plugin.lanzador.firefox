@@ -36,7 +36,6 @@ if not os.path.isdir(siteFolder):
 
 youtubeUrl = "http://www.youtube.com/"
 vimeoUrl = "http://www.vimeo.com/"
-yomviUrl = "http://yomvi.plus.es/endirecto"
 netflixUrl = "https://www.netflix.com/es/"
 entreunosycerosUrl = "https://entreunosyceros.net"
 primevideoUrl = "https://www.primevideo.com/"
@@ -70,7 +69,6 @@ def index():
     addDir("[ Netflix España ]", netflixUrl, 'showSite', os.path.join(addonPath, "netflix.png"), "yes", "yes")
     addDir("[ Vimeo ]", vimeoUrl, 'showSite', os.path.join(addonPath, "vimeo.png"), "yes", "yes")
     addDir("[ Youtube ]", youtubeUrl, 'showSite', os.path.join(addonPath, "youtube.png"), "yes", "yes")
-    addDir("[ Yomvi en directo ]", yomviUrl, 'showSite', os.path.join(addonPath, "yomvi.png"), "yes", "yes")
     addDir("[ Amazon PrimeVideo ]", primevideoUrl, 'showSite', os.path.join(addonPath, "primevideo.png"), "yes", "yes")
     addDir("[B]- "+translation(30001)+"[/B]", "", 'addSite', "")
     xbmcplugin.endOfDirectory(pluginhandle)
